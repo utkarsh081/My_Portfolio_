@@ -77,9 +77,7 @@ function Hero() {
         Full Stack Developer • Machine Learning Enthusiast
       </motion.p>
       <img
-        src="/myphoto.png"
-        alt="Utkarsh Pandey"
-        className="hero-image"
+        src={`${import.meta.env.BASE_URL}myphoto.jpg`} alt="Utkarsh Pandey" className="hero-image"
       />
     </section>
   );
