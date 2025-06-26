@@ -1,4 +1,5 @@
 {
+  "homepage": "https://utkarsh081.github.io/My_Portfolio_",
   "name": "my-portfolio",
   "private": true,
   "version": "0.0.0",
@@ -7,7 +8,9 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@react-three/drei": "^10.3.0",
