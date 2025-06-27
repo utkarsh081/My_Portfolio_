@@ -217,7 +217,7 @@ function Contact() {
         <p>GitHub: <a href="https://github.com/utkarsh081">MyGitHub</a></p>
         <p>Leetcode: <a href="https://leetcode.com/u/utkarsh081/">MyLeetcode</a></p>
         <p>LinkedIn: <a href="https://linkedin.com/in/utkarsh-pandey-b37057227">MyLinkedIN</a></p>
-        <a href={`${process.env.PUBLIC_URL}/MyCV.pdf`} download>MyResume</a>
+        <p>CV: <a href={`${process.env.PUBLIC_URL}/MyCV.pdf`} download>MyResume</a></p>
       </div>
     </motion.div>
   );
