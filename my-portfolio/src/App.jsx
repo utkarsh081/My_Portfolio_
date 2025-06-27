@@ -174,7 +174,7 @@ function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
-    emailjs.send("your_service_id", "your_template_id", form, "your_user_id")
+    emailjs.send("service_66pdxbl", "template_yyeqr9g", form, "hzq3XcVH4G3FtIDKg")
       .then(() => {
         setSent(true);
         setForm({ name: "", email: "", message: "" });
@@ -217,7 +217,7 @@ function Contact() {
         <p>GitHub: <a href="https://github.com/utkarsh081">MyGitHub</a></p>
         <p>Leetcode: <a href="https://leetcode.com/u/utkarsh081/">MyLeetcode</a></p>
         <p>LinkedIn: <a href="https://linkedin.com/in/utkarsh-pandey-b37057227">MyLinkedIN</a></p>
-        <p>CV: <a href="C:\Users\utkarsh pandey\OneDrive\Desktop\MAINRESUME\main_my_resume(apr).pdf">MyResume</a></p>
+        <a href={`${process.env.PUBLIC_URL}/MyCV.pdf`} download>MyResume</a>
       </div>
     </motion.div>
   );
